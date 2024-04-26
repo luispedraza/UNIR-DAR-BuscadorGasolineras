@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de gasolineras sencillo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <h1>Buscador de gasolineras sencillo</h1>
+
+    <button id="reload">
+        Obtener precios de combustible
+    </button>
+
+    <button id="filterByLocation">
+        Filtrar las 10 gasolineras más próximas
+    </button>
+
+
+    <table id="table">
+        <thead>
+            <td>Provincia</td>
+            <td>Localidad</td>
+            <td>Municipio</td>
+            <td>Dirección</td>
+            <td>Precio Gasolina 95</td>
+            <td>Precio gasoleo A</td>
+        </thead>
+        <tbody id="tableBody">
+
+        </tbody>
+    </table>
+
+    <script src="ui.js"></script>
+    <script src="get_data.js"></script>
+    <script src="geolocation.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
