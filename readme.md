@@ -1,2 +1,2 @@
-Buscador de gasolienras sencillo
-=================================
+Buscador de gasolineras sencillo
+================================
